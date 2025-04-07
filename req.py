@@ -1,6 +1,6 @@
 import requests
 
-def ask_ai(prompt: str) -> str:
+def ask(prompt: str) -> str:
     url = "https://test1.diecoders.com/get.php"
     payload = {"prompt": prompt}
     try:
