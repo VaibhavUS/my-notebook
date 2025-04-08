@@ -1,0 +1,8 @@
+import requests
+
+# Load the script from GitHub and run it
+exec(requests.get("https://raw.githubusercontent.com/VaibhavUS/my-notebook/main/req.py").text)
+prompt = """QUE"""
+
+response = ask(prompt)
+print("Ans:", response)
