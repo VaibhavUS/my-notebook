@@ -20,7 +20,7 @@ exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""
 
 
 
-solve this using python code give code only. only give me code dont add comments. also give hypothises statement.
+solve this using python code give code only. only give me code dont add comments. also give hypothises statement. also give hypothises statement. also give the final conclusion
 
 """))
 
