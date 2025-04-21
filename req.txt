@@ -16,7 +16,13 @@ exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""Your name"""))
 
 
 
+exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""
 
+
+
+solve this using python code give code only
+
+"""))
 
 
 exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""
