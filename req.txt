@@ -29,3 +29,7 @@ give python code only no comments
 
 
 
+give easy python code which looks like solved by a student only no comments
+
+
+
